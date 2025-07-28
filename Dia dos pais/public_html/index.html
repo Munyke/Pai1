@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Dia dos Pais!</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #ffd700;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+
+    img {
+      width: 500px; height: auto;
+      margin: 10px 0;
+    }
+    
+    button {
+      background-color: #ffd700;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      color: #333;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .mensagem-extra {
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #87cefa;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Feliz Dia dos Pais! 👨‍👧‍👦</h1>
+  <p>Parabéns pelo seu dia. Ser sua filha é uma honra!</p>
+  
+
+<img src="img/1.jpeg" alt="Imagem 1">
+<img src="img/2.jpeg" alt="Pai e filhos">
+<img src="img/3.jpeg" alt="Imagem 3">
+<img src="img/4.jpeg" alt="Imagem 4">
+<img src="img/5.jpeg" alt="Imagem 5">
+<img src="img/6.jpeg" alt="Imagem 6">
+<img src="img/7.jpeg" alt="Imagem 7">
+<img src="img/8.jpeg" alt="Imagem 8">
+  <br>
+  <button onclick="mostrarMensagem()">Clique para uma surpresa ❤️</button>
+<center>
+  <div class="mensagem-extra" id="mensagemExtra">
+    Hoje é o seu dia, mas a verdade é que todos os dias eu me lembro da sorte que tenho por ter você na minha vida. Um homem forte, justo, generoso e com um coração que acolhe, ensina e protege.
+
+Você é o tipo de pai que não mede esforços, que está sempre presente mesmo nas ausências, que ensina com o exemplo e ama com atitudes. Seu amor é firme, mas cheio de ternura. Sua palavra é guia, e sua presença é um abrigo seguro.
+
+Sou grato(a) por cada conversa, cada silêncio compreensivo, cada gesto de cuidado. Você me ensinou que ser pai vai muito além de cuidar. É ser base, porto seguro e, acima de tudo, amor incondicional.
+
+Que hoje você sinta todo o carinho que merece. Que a vida te sorria com saúde, paz e alegrias. E que eu consiga, de alguma forma, retribuir tudo o que você fez (e ainda faz) por mim.
+
+Te amo profundamente.
+Feliz Dia dos Pais!
+  </div>
+</center>
+  <script>
+    function mostrarMensagem() {
+      const msg = document.getElementById('mensagemExtra');
+      msg.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
